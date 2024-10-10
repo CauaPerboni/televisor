@@ -5,8 +5,8 @@ class Televisor:
         self.canal_atual = None
         self.lista_de_canais = []
         self.volume = 20
-        self.volume_antes_mute = None  # Para armazenar o volume antes do mute
-        self.ligada = False  # TV começa desligada
+        self.volume_antes_mute = None 
+        self.ligada = False 
 
     def ligaDesliga(self):
         self.ligada = not self.ligada
@@ -44,7 +44,7 @@ class Televisor:
             print("A TV está desligada.")
 
     def sintonizaCanal(self, canal):
-        if len(self.lista_de_canais) < 100:  # Limite de 100 canais
+        if len(self.lista_de_canais) < 100: 
             if canal not in self.lista_de_canais:
                 self.lista_de_canais.append(canal)
                 print(f"Canal {canal} sintonizado.")
