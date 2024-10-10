@@ -1,0 +1,1 @@
+# Este projeto não depende de bibliotecas externas específicas
